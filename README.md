@@ -6,3 +6,7 @@
 **clear**
 
 <img src="https://user-images.githubusercontent.com/31604976/73122897-364bbc00-3fcd-11ea-8a63-0c015e6de6bd.png">
+
+**media queries**
+
+<img src="https://user-images.githubusercontent.com/31604976/73123232-3e0d5f80-3fd1-11ea-9af4-fc276de72113.png"><img src="https://user-images.githubusercontent.com/31604976/73123243-52e9f300-3fd1-11ea-8680-0c71dea85cf5.png">
