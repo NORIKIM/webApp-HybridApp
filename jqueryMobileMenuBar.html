@@ -9,8 +9,10 @@
 <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </head>
   <body>
-    <div data-role="page" id="page" data-position="fixed" data-fullscreen="true">
-      <div data-role="header">
+    <div data-role="page" id="page">
+      <div data-role="header" data-position="fixed" data-fullscreen="true">
+        <!-- data-position: 툴바의 상태 속성(fixed를 하면 툴바가 화면이 터치되면 사라짐)-->
+        <!-- data-fullscreen: 배경의 여백 -->
         <a href="#" data-icon="back">Back</a>
         <a href="#" data-icon="home">Home</a>
         <h1>Header 입니다.</h1>
@@ -25,15 +27,15 @@
         </div> <!-- navbar 끝 -->
       </div> <!-- header 끝 -->
       <div data-role"content">
-        <img src="smile.png" alt="" />
+        <img src="back.jpg" alt="" />
       </div>
-      <div data-role="footer">
+      <div data-role="footer" data-position="fixed" data-fullscreen="true">
         <div data-role="navbar">
           <ul>
-            <li><a href="#">하단1</a></li>
-            <li><a href="#">하단2</a></li>
-            <li><a href="#">하단3</a></li>
-            <li><a href="#">하단4</a></li>
+            <li><a href="#" data-icon="gear" class="ui-btn-active">하단1</a></li>
+            <li><a href="#" data-icon="info">하단2</a></li>
+            <li><a href="#" data-icon="star">하단3</a></li>
+            <li><a href="#" data-icon="grid">하단4</a></li>
           </ul>
         </div> <!-- navbar 끝 -->
       </div> <!-- footer 끝 -->
