@@ -1,0 +1,39 @@
+<!DOCTYPE>
+  <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no" />
+<title>Page Structure</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+  <body>
+    <div data-role="page" id="main_page">
+      <div data-role="header" data-them="b">
+        <h1>메인페이지</h1>
+      </div>
+      <div data-role="content">
+        <h2>메인페이지 입니다.</h2>
+        <p><a href="#sub_page" data-transition="slide">서브페이지</a></p>
+      </div>
+      <div data-role="footer">
+        <h2>Footer 입니다.</h2>
+      </div>
+    </div>
+    
+    <div data-role="page" id="sub_page">
+      <div data-role="header" data-theme="b">
+        <h1>서브페이지</h1>
+      </div>
+      <div data-role="content">
+        <h2>서브페이지 입니다.</h2>
+        <p><a href="#main_page" data-transition="slide"data-direction="reverse">메인페이지</a></p>
+      </div>
+      <div data-role="footer">
+        <h2>Footer 입니다.</h2>
+      </div>
+    </div>
+  </body>
+</html>
+</!doctype>
