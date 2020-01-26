@@ -46,3 +46,13 @@ $ cordova platform add ios
 platform - ios - .xcodeproj 
 ```
 
+***코드로바?***
+
+Node.js를 기반으로 하이브리드 앱 개발 시 사용되는 프레임워크
+
+모바일용 하이브리드 앱을 만드는데 쓰이는 phonegap 프레임워크 기반
+
+크로스 플랫폼개발을 위한 HTML, CSS, JS등의 표준 웹 기술 사용 가능
+
+<img src="https://mblogthumb-phinf.pstatic.net/MjAxODA3MTFfNzgg/MDAxNTMxMjg1MDc3NjEx.tlur0TnpetW3pvx7QGn9DO2Qx3H_pyq9nT4SJJjzv2Qg.oYl2u2iB7o446ceGBVvvifBgH0XwylKdSRYg5XxmFt8g.PNG.sundooedu/cordovaapparchitecture.png?type=w800">
+
