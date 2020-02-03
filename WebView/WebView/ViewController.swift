@@ -10,22 +10,23 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
-    let url = "webViewTest.html"
-    
-    let contenController = WKUserContentController()
-    let config = WKWebViewConfiguration()
     
     @IBOutlet weak var webView: WKWebView!
     
+    override func loadView() {
+        super.loadView()
+        webView = WKWebView(frame: self.view.frame)
+        webView.uiDelegate = self
+        webView.navigationDelegate = self
+        self.view = self.webView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        webView = WKWebView(frame: self.view.frame, configuration: config)
-        webView.uiDelegate = self
-        webView.navigationDelegate = self
-        
-        guard let url = URL(string: url) else { return }
+        guard let url = Bundle.main.url(forResource: "webViewTest", withExtension: "html") else { return }
+        webView.loadFileURL(url, allowingReadAccessTo: url)
         let request = URLRequest(url: url)
+        print(request)
         webView.load(request)
     }
 

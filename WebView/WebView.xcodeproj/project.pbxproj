@@ -13,6 +13,7 @@
 		3C8B41AE23E1893400C1E0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B41AC23E1893400C1E0CB /* Main.storyboard */; };
 		3C8B41B023E1893700C1E0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B41AF23E1893700C1E0CB /* Assets.xcassets */; };
 		3C8B41B323E1893700C1E0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B41B123E1893700C1E0CB /* LaunchScreen.storyboard */; };
+		3C8B41BB23E81B4400C1E0CB /* webViewTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B41BA23E81B4400C1E0CB /* webViewTest.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C8B41AF23E1893700C1E0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C8B41B223E1893700C1E0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C8B41B423E1893700C1E0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8B41BA23E81B4400C1E0CB /* webViewTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webViewTest.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3C8B41A623E1893400C1E0CB /* AppDelegate.swift */,
 				3C8B41A823E1893400C1E0CB /* SceneDelegate.swift */,
 				3C8B41AA23E1893400C1E0CB /* ViewController.swift */,
+				3C8B41BA23E81B4400C1E0CB /* webViewTest.html */,
 				3C8B41AC23E1893400C1E0CB /* Main.storyboard */,
 				3C8B41AF23E1893700C1E0CB /* Assets.xcassets */,
 				3C8B41B123E1893700C1E0CB /* LaunchScreen.storyboard */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8B41BB23E81B4400C1E0CB /* webViewTest.html in Resources */,
 				3C8B41B323E1893700C1E0CB /* LaunchScreen.storyboard in Resources */,
 				3C8B41B023E1893700C1E0CB /* Assets.xcassets in Resources */,
 				3C8B41AE23E1893400C1E0CB /* Main.storyboard in Resources */,
